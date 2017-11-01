@@ -1,0 +1,5 @@
+set PY="C:\Program Files\Python34\python.exe"
+
+%PY% åüçı_ê≥ãKï\åª.py
+
+pause

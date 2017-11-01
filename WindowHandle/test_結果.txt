@@ -1,0 +1,8 @@
+"スタート" (000100B4)
+"" (000100AE)
+"C:\Windows\system32\cmd.exe" (002008B4)
+"WindowHandle" (000F0888)
+"windowtext.py  - 秀丸" (001D0980)
+"送信済み - yikeda5_2016 - Outlook" (00010586)
+"PythonのUnicodeEncodeErrorを知る - HDEラボ - Google Chrome" (001905BC)
+"Program Manager" (00010146)
