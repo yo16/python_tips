@@ -13,7 +13,13 @@ root = lxml.html.fromstring(target_html)
 
 objContent = root.cssselect('pre')[0].text_content()
 
-text = lxml.html.tostring(objContent, method='text', encoding='utf-8')
+#text = lxml.html.tostring(objContent, method='text', encoding='utf-8')
+#-> TypeError: Type 'lxml.etree._ElementUnicodeResult' cannot be serialized.
+#text = lxml.html.tostring(objContent[0])
+#-> Type 'str' cannot be serialized.
+text = objContent[0]
+#-> 空
+
 #http://furyu.hatenablog.com/entry/20130102/1357132357
 #http://www.cafe-gentle.jp/challenge/tips/python_tips_003.html
 
