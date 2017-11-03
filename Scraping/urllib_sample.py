@@ -20,6 +20,6 @@ bin = f.read()
 f.close()
 text = bin.decode('utf-8')
 
-log = open('sakura.log', 'w')
+log = open('urllib_sample.log', 'w')
 log.write(text)
 log.close()
