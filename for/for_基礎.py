@@ -12,7 +12,9 @@ for i in range(4):
 	print(i)
 # 0,1,2,3
 # ４回
-
+for i in range(10,15):
+	print(i)
+# 10,11,12,13,14
 
 
 # list

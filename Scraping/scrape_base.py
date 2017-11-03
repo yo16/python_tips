@@ -24,6 +24,7 @@ objContent = root.cssselect('pre')[0]
 bin = lxml.html.tostring(objContent, encoding='utf-8')	# 入力する文字はutf-8だと指示する
 text = bin.decode('utf-8')	# utf-8としてdecode
 
+
 f = open('scrape_base.log', 'w')
 f.write(text)
 f.close()
