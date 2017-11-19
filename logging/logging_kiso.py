@@ -20,7 +20,9 @@ handler = StreamHandler()
 handler.setLevel(DEBUG)
 
 # formatter
-formatter = Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+#formatter = Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+# ミリ秒はasctimeにないので、別にする
+formatter = Formatter('%(asctime)s.%(msecs)d|%(levelname)s|%(message)s', '%Y/%m/%d %H:%M:%S')
 handler.setFormatter(formatter)
 
 __mylogger.setLevel(DEBUG)
