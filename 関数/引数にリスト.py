@@ -7,7 +7,7 @@
 # 参照するのみ
 def myFunc1(myLst):
 	for elm in myLst:
-		print(elm)
+		print(elm)		# →参照できる
 
 # 追加
 def myFunc2(myLst2):
@@ -17,6 +17,6 @@ def myFunc2(myLst2):
 l1 = [10,20,30]
 myFunc1( l1 )
 myFunc2( l1 )
-myFunc1( l1 )	# →追加される
+myFunc1( l1 )	# →追加されている
 
 
