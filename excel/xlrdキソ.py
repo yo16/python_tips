@@ -25,3 +25,8 @@ print('行数/列数:'+str(sheet1.ncols)+'/'+str(sheet1.nrows))
 print('値(D6):'+sheet1.cell(5,3).value)
 
 
+
+
+# クローズ
+book.release_resources()
+del book
