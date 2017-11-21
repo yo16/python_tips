@@ -40,6 +40,12 @@ for elm in listA:
 # 要素数
 print('len:' + str(len(listA)))
 
+# 存在
+if 21 in listA:
+	print('exists')
+else:
+	print('not exists')
+
 
 
 # -------------------
