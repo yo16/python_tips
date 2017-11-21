@@ -43,9 +43,9 @@ print('len:' + str(len(listA)))
 # 存在
 if 21 in listA:
 	print('exists')
-else:
-	print('not exists')
 
+if 99999 not in listA:
+	print('not exists')
 
 
 # -------------------
