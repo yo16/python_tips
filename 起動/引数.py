@@ -12,6 +12,11 @@ if __name__ == "__main__":
 	paramnum = len(params)
 	print("数:%d" % paramnum)
 	
+	# よくやる例
+	if len(params) < 5:
+		print('引数エラー')
+		exit()
+	
 	print("第０引数(スクリプト名):%s" % params[0])
 	print("第１引数:%s" % params[1])
 	print("第２引数:%s" % params[2])
