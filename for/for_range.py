@@ -21,3 +21,10 @@ print('----')
 for i in range(30, 60, 10):
 	print(i)
 
+print('----')
+
+
+# 反対から
+for i in range(5,0,-1):
+	print(i)
+# 5,4,3,2,1
