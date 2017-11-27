@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# w:上書き出力
+# a:追記出力
 f = open('out.txt', 'w')
 
 

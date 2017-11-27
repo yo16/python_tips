@@ -5,7 +5,7 @@ import codecs
 
 #f = open('intext.txt')
 #f = open('intext.txt', 'r')
-f = codecs.open('intext.txt', 'r', 'utf-8')
+f = codecs.open('intext.txt', 'r', 'utf_8')
 
 
 # 出力
