@@ -1,0 +1,21 @@
+先頭行のcodingの行
+
+参考
+https://www.python.org/dev/peps/pep-0263/
+https://qiita.com/ronin_gw/items/2c82b727461b18991eff
+
+
+正確には下記を満たす必要がある
+^[ \t\v]*#.*?coding[:=][ \t]*([-_.a-zA-Z0-9]+)
+
+下記はなぜか有名だけど、
+# -*- coding:utf-8 -*-
+下記で十分
+# coding:utf-8
+
+
+注意点としては
+codingと:の間は、スペースを入れてはいけない。
+:とutf-8の間は、スペースを入れても入れなくてもいい。
+
+
