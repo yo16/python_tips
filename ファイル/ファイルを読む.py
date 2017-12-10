@@ -9,9 +9,11 @@ f = codecs.open('intext.txt', 'r', 'utf_8')
 
 
 # 出力
-# \r\nのそれぞれの文、２度改行される
 for line in f:
+	# 変数「line」には、行末に「\r\n」が入っている。
+	# \r\nのそれぞれで改行されるため２度改行される。
 	print(line)
+	# もし行末の\r\nを除外したければ、replaceする必要あり。
 
 
 f.close
