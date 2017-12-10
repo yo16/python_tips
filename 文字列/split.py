@@ -1,9 +1,14 @@
 # -*- coding: utf-8 -*-
 
-str = "hello,world,foo,bar"
-
+str = "abc,def,g"
 ary = str.split(",")
+print(ary)
+# ['abc', 'def', 'g']
 
 
-for elm in ary:
-	print(elm)
+# セパレータがないときは、全要素＝１要素となる
+str2 = "abcdef"
+ary2 = str2.split(",")
+print(ary2)
+# ['abcdef']
+
