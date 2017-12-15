@@ -15,3 +15,10 @@ if b:
 else:
 	print('False')
 
+# notで反転
+c = not a
+if c:
+	print('True')
+else:
+	print('False')
+
