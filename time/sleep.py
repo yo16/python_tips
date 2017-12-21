@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
 
+# sleep
+# 単位は秒
+
 import time
 
 
