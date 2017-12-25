@@ -1,7 +1,7 @@
 # coding: utf-8
 
 # ファイルの更新を確認
-# 2017 (c) y.ikeda
+# 2017 (c) yo16
 # 参考 https://qiita.com/ksato9700/items/ea4b769d010e8cf1fb0c
 
 import sys

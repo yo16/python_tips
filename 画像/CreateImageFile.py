@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 
 # 画像ファイルを作成する
-# 2016/3/16 y.ikeda
+# 2016/3/16 yo16
 
 from PIL import Image
 from PIL import ImageDraw

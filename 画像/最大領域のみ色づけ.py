@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 
 # 最大領域のみ色づけ
-# 2016/3/17 y.ikeda
+# 2016/3/17 yo16
 # 
 # LabelingPrac.pyからコピペして発展
 

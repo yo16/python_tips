@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # listに対するfor
-# 2017/3/21 (c) y.ikeda
+# 2017/3/21 (c) yo16
 
 elements = ['aa','bb','cc']
 

@@ -1,7 +1,7 @@
 # coding: utf-8
 
 # pdfminerTest
-# 2017 (c) y.ikeda
+# 2017 (c) yo16
 # pdfminerはpython2用で、
 # 本プログラムはpython3を使いたかったのでpdfminer.sixを使用。
 

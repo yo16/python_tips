@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 
 # 画像ファイルをモザイク化する
-# 2016/12/14 y.ikeda
+# 2016/12/14 yo16
 
 from PIL import Image
 from PIL import ImageDraw

@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 
 # 画像ファイルを、単純に端から端までrgbのpixelを比較する
-# 2016/12/16 y.ikeda
+# 2016/12/16 yo16
 
 from PIL import Image
 

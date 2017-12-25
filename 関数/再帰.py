@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # 再帰の練習
-# 2017/04/18 y.ikeda
+# 2017/04/18 yo16
 
 def kaijou(a):
 	if ( a <= 0 ) :

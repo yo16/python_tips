@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # collections
-# 2017/3/21 (c) y.ikeda
+# 2017/3/21 (c) yo16
 
 from collections import defaultdict
 

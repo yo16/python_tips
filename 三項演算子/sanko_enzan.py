@@ -1,7 +1,7 @@
 # -*- coding : utf-8 -*-
 
 # 参項演算子
-# 2017/11/4 y.ikeda
+# 2017/11/4 yo16
 
 def kigu(n):
 	return str(n) + ' is ' + ('even' if n%2==0 else 'odd')
